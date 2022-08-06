@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <link rel="stylesheet" href="styles.css">
+    <link type="image/png" sizes="16x16" rel="icon" href="icons8-partly-cloudy-day-dotted-16.png">
+    <link type="image/png" sizes="32x32" rel="icon" href="icons8-partly-cloudy-day-dotted-32.png">
+    <link type="image/png" sizes="96x96" rel="icon" href="icons8-partly-cloudy-day-dotted-96.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Uchen&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@500&family=Raleway:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital@1&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <h1>Daily Weather</h1>
+        <div class="date">Thursday, July, 28┆</div>
+        <div class="location">┆Tunis, Tunisia</div>
+    </div>
+    <div class="container">
+
+        <div class="today">
+            <div class="current-time">Thursday 15:00</div>
+            <div class="current-weather">
+                <div class="main-info">
+                    <div class="current-temp">34°C<div class="summary">mostly sunny</div></div>
+                    <div class="condition">
+                        <img src="img\sun.png" alt="mostly sunny" class="current-icon">
+                    </div>
+                </div>
+                    <ul>
+                        <li>Precipitation: 0%</li>
+                        <li>Humidity: 42%</li>
+                        <li>Wind: 23 km/h</li>
+                    </ul>
+            </div>
+
+            <div class="next24">
+                <div class="scroll" id="scroll">
+                    <div class="hourly" id="hourly">
+                        <div class="hour">
+                            <time>16:00</time>
+                            <div class="icon"><img src="img/icons8-partly-cloudy-day-80.png" alt="" class="icon-hour"></div>
+                            <div class="temp">32°C</div>
+                        </div>
+                        <div class="hour">
+                            <time>16:00</time>
+                            <div class="icon"><img src="img/icons8-partly-cloudy-day-80.png" alt="" class="icon-hour"></div>
+                            <div class="temp">32°C</div>
+                        </div>
+                        <div class="hour">
+                            <time>16:00</time>
+                            <div class="icon"><img src="img/icons8-partly-cloudy-day-80.png" alt="" class="icon-hour"></div>
+                            <div class="temp">32°C</div>
+                        </div>
+                        <div class="hour">
+                            <time>16:00</time>
+                            <div class="icon"><img src="img/icons8-partly-cloudy-day-80.png" alt="" class="icon-hour"></div>
+                            <div class="temp">32°C</div>
+                        </div>
+                        <div class="hour">
+                            <time>16:00</time>
+                            <div class="icon"><img src="img/icons8-partly-cloudy-day-80.png" alt="" class="icon-hour"></div>
+                            <div class="temp">32°C</div>
+                        </div>
+                        <div class="hour">
+                            <time>16:00</time>
+                            <div class="icon"><img src="img/icons8-partly-cloudy-day-80.png" alt="" class="icon-hour"></div>
+                            <div class="temp">32°C</div>
+                        </div>
+                        <div class="hour">
+                            <time>16:00</time>
+                            <div class="icon"><img src="img/icons8-partly-cloudy-day-80.png" alt="" class="icon-hour"></div>
+                            <div class="temp">32°C</div>
+                        </div>
+                        <div class="hour">
+                            <time>16:00</time>
+                            <div class="icon"><img src="img/icons8-partly-cloudy-day-80.png" alt="" class="icon-hour"></div>
+                            <div class="temp">32°C</div>
+                        </div>
+                        <div class="hour">
+                            <time>16:00</time>
+                            <div class="icon"><img src="img/icons8-partly-cloudy-day-80.png" alt="" class="icon-hour"></div>
+                            <div class="temp">32°C</div>
+                        </div>
+                        <div class="hour">
+                            <time>16:00</time>
+                            <div class="icon"><img src="img/icons8-partly-cloudy-day-80.png" alt="" class="icon-hour"></div>
+                            <div class="temp">32°C</div>
+                        </div>
+                        <div class="hour">
+                            <time>16:00</time>
+                            <div class="icon"><img src="img/icons8-partly-cloudy-day-80.png" alt="" class="icon-hour"></div>
+                            <div class="temp">32°C</div>
+                        </div>
+                        <div class="hour">
+                            <time>16:00</time>
+                            <div class="icon"><img src="img/icons8-partly-cloudy-day-80.png" alt=""class="icon-hour"></div>
+                            <div class="temp">32°C</div>
+                        </div>
+                        <div class="hour">
+                            <time>16:00</time>
+                            <div class="icon"><img src="img/icons8-partly-cloudy-day-80.png" alt="" class="icon-hour"></div>
+                            <div class="temp">32°C</div>
+                        </div>
+                        <div class="hour">
+                            <time>16:00</time>
+                            <div class="icon"><img src="img/icons8-partly-cloudy-day-80.png" alt="" class="icon-hour"></div>
+                            <div class="temp">32°C</div>
+                        </div>
+                        <div class="hour">
+                            <time>16:00</time>
+                            <div class="icon"><img src="img/icons8-partly-cloudy-day-80.png" alt="" class="icon-hour"></div>
+                            <div class="temp">32°C</div>
+                        </div>
+                        <div class="hour">
+                            <time>16:00</time>
+                            <div class="icon"><img src="img/icons8-partly-cloudy-day-80.png" alt="" class="icon-hour"></div>
+                            <div class="temp">32°C</div>
+                        </div>
+                        <div class="hour">
+                            <time>16:00</time>
+                            <div class="icon"><img src="img/icons8-partly-cloudy-day-80.png" alt="" class="icon-hour"></div>
+                            <div class="temp">32°C</div>
+                        </div>
+                        <div class="hour">
+                            <time>16:00</time>
+                            <div class="icon"><img src="img/icons8-partly-cloudy-day-80.png" alt="" class="icon-hour"></div>
+                            <div class="temp">32°C</div>
+                        </div>
+                        <div class="hour">
+                            <time>16:00</time>
+                            <div class="icon"><img src="img/icons8-partly-cloudy-day-80.png" alt="" class="icon-hour"></div>
+                            <div class="temp">32°C</div>
+                        </div>
+                        <div class="hour">
+                            <time>16:00</time>
+                            <div class="icon"><img src="img/icons8-partly-cloudy-day-80.png" alt="" class="icon-hour"></div>
+                            <div class="temp">32°C</div>
+                        </div>
+                        <div class="hour">
+                            <time>16:00</time>
+                            <div class="icon"><img src="img/icons8-partly-cloudy-day-80.png" alt="" class="icon-hour"></div>
+                            <div class="temp">32°C</div>
+                        </div>
+                        <div class="hour">
+                            <time>16:00</time>
+                            <div class="icon"><img src="img/icons8-partly-cloudy-day-80.png" alt="" class="icon-hour"></div>
+                            <div class="temp">32°C</div>
+                        </div>
+                        <div class="hour">
+                            <time>16:00</time>
+                            <div class="icon"><img src="img/icons8-partly-cloudy-day-80.png" alt="" class="icon-hour"></div>
+                            <div class="temp">32°C</div>
+                        </div>
+                        <div class="hour">
+                            <time>16:00</time>
+                            <div class="icon"><img src="img/icons8-partly-cloudy-day-80.png" alt="" class="icon-hour"></div>
+                            <div class="temp">32°C</div>
+                        </div>
+                        <div class="arrow"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="next-7-days">
+            <div class="scroll-2">
+                <div class="daily">
+                <div class="day">
+                    <div class="main-data">
+					<div class="time">Today</div>
+					<div class="icon"><img src="img/icons8-partly-cloudy-day-100.png" alt="" class="icon-day"></div>
+					<div class="temp-day">
+						<span class="hiTemp">27°C</span> / <span class="loTemp">17°C</span>
+					</div>
+					<div class="summary-day">Partly cloudy</div>
+                    </div>
+                    <div class="more-info">
+                        <div class="row">
+                            <span>Sunrise:05:21</span>
+                            <span>Sunset:19:25</span>
+                        </div>
+                        <div class="row">
+                            <span>Humidity:</span>
+                            <span>Wind:</span>
+                            <span>Preciptitaion:</span>
+                        </div>
+                        <div class="row">
+                            <span>Cloud cover:</span>
+                            <span>Pressure:</span>
+                        </div>
+                    </div>
+                    <div class="toggle"><img src="img/toggle_down.png" alt="" width="20px"></div>
+                </div>
+                <div class="day">
+                    <div class="main-data">
+					<div class="time">Today</div>
+					<div class="icon"><img src="img/icons8-partly-cloudy-day-100.png" alt="" class="icon-day"></div>
+					<div class="temp-day">
+						<span class="hiTemp">27°C</span> / <span class="loTemp">17°C</span>
+					</div>
+					<div class="summary-day">Partly cloudy</div>
+                    </div>
+                    <div class="more-info">
+                        <div class="row">
+                            <span>Sunrise:</span>
+                            <span>Sunset:</span>
+                        </div>
+                        <div class="row">
+                            <span>Humidity:</span>
+                            <span>Wind:</span>
+                            <span>Preciptitaion:</span>
+                        </div>
+                        <div class="row">
+                            <span>Cloud cover:</span>
+                            <span>Pressure:</span>
+                        </div>
+                    </div>
+                    <div class="toggle"><img src="img/toggle_down.png" alt="" width="20px"></div>
+                </div>
+                <div class="day">
+                    <div class="main-data">
+					<div class="time">Today</div>
+					<div class="icon"><img src="img/icons8-partly-cloudy-day-100.png" alt="" class="icon-day"></div>
+					<div class="temp-day">
+						<span class="hiTemp">27°C</span> / <span class="loTemp">17°C</span>
+					</div>
+					<div class="summary-day">Partly cloudy</div>
+                    </div>
+                    <div class="more-info">
+                        <div class="row">
+                            <span>Sunrise:</span>
+                            <span>Sunset:</span>
+                        </div>
+                        <div class="row">
+                            <span>Humidity:</span>
+                            <span>Wind:</span>
+                            <span>Preciptitaion:</span>
+                        </div>
+                        <div class="row">
+                            <span>Cloud cover:</span>
+                            <span>Pressure:</span>
+                        </div>
+                    </div>
+                    <div class="toggle"><img src="img/toggle_down.png" alt="" width="20px"></div>
+                </div>
+                <div class="day">
+                    <div class="main-data">
+					<div class="time">Today</div>
+					<div class="icon"><img src="img/icons8-partly-cloudy-day-100.png" alt="" class="icon-day"></div>
+					<div class="temp-day">
+						<span class="hiTemp">27°C</span> / <span class="loTemp">17°C</span>
+					</div>
+					<div class="summary-day">Partly cloudy</div>
+                    </div>
+                    <div class="more-info">
+                        <div class="row">
+                            <span>Sunrise:</span>
+                            <span>Sunset:</span>
+                        </div>
+                        <div class="row">
+                            <span>Humidity:</span>
+                            <span>Wind:</span>
+                            <span>Preciptitaion:</span>
+                        </div>
+                        <div class="row">
+                            <span>Cloud cover:</span>
+                            <span>Pressure:</span>
+                        </div>
+                    </div>
+                    <div class="toggle"><img src="img/toggle_down.png" alt="" width="20px"></div>
+                </div>
+                <div class="day">
+                    <div class="main-data">
+					<div class="time">Today</div>
+					<div class="icon"><img src="img/icons8-partly-cloudy-day-100.png" alt="" class="icon-day"></div>
+					<div class="temp-day">
+						<span class="hiTemp">27°C</span> / <span class="loTemp">17°C</span>
+					</div>
+					<div class="summary-day">Partly cloudy</div>
+                    </div>
+                    <div class="more-info">
+                        <div class="row">
+                            <span>Sunrise:</span>
+                            <span>Sunset:</span>
+                        </div>
+                        <div class="row">
+                            <span>Humidity:</span>
+                            <span>Wind:</span>
+                            <span>Preciptitaion:</span>
+                        </div>
+                        <div class="row">
+                            <span>Cloud cover:</span>
+                            <span>Pressure:</span>
+                        </div>
+                    </div>
+                    <div class="toggle"><img src="img/toggle_down.png" alt="" width="20px"></div>
+                </div>
+                <div class="day">
+                    <div class="main-data">
+					<div class="time">Today</div>
+					<div class="icon"><img src="img/icons8-partly-cloudy-day-100.png" alt="" class="icon-day"></div>
+					<div class="temp-day">
+						<span class="hiTemp">27°C</span> / <span class="loTemp">17°C</span>
+					</div>
+					<div class="summary-day">Partly cloudy</div>
+                    </div>
+                    <div class="more-info">
+                        <div class="row">
+                            <span>Sunrise:</span>
+                            <span>Sunset:</span>
+                        </div>
+                        <div class="row">
+                            <span>Humidity:</span>
+                            <span>Wind:</span>
+                            <span>Preciptitaion:</span>
+                        </div>
+                        <div class="row">
+                            <span>Cloud cover:</span>
+                            <span>Pressure:</span>
+                        </div>
+                    </div>
+                    <div class="toggle"><img src="img/toggle_down.png" alt="" width="20px"></div>
+                </div>
+                <div class="day">
+                    <div class="main-data">
+					<div class="time">Today</div>
+					<div class="icon"><img src="img/icons8-partly-cloudy-day-100.png" alt="" class="icon-day"></div>
+					<div class="temp-day">
+						<span class="hiTemp">27°C</span> / <span class="loTemp">17°C</span>
+					</div>
+					<div class="summary-day">Partly cloudy</div>
+                    </div>
+                    <div class="more-info">
+                        <div class="row">
+                            <span>Sunrise:</span>
+                            <span>Sunset:</span>
+                        </div>
+                        <div class="row">
+                            <span>Humidity:</span>
+                            <span>Wind:</span>
+                            <span>Preciptitaion:</span>
+                        </div>
+                        <div class="row">
+                            <span>Cloud cover:</span>
+                            <span>Pressure:</span>
+                        </div>
+                    </div>
+                    <div class="toggle"><img src="img/toggle_down.png" alt="" width="20px"></div>
+                </div>
+                </div>
+           </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
+
